@@ -1,0 +1,113 @@
+.mountYatra-home{
+    background-color: #FDAE3C;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.mountYatra-home-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-width: 50%;
+}
+.mountYatra-home-content-logo img{
+    max-width: 14rem;
+    box-shadow: 1rem 1rem 1rem #4b064d
+}
+.mountYatra-home-content-heading{
+    padding-top: 2rem;
+}
+.mountYatra-home-content-heading h1{
+    /* font-size: 4rem; */
+    font-size: 4rem;
+    color: #4b064d;
+    line-height: 4rem;
+}
+.mountYatra-home-content-heading p{
+    font-size: 1.3rem;
+}
+.mountYatra-home-content-points{
+    padding: 2rem 0;
+}
+.content-points-heading h3{
+    font-size: 2rem;
+    color: #fff;
+}
+
+.content-points .home-btn{
+    padding: 1rem 2rem;
+    background-color: #4b064d;
+    border: none;
+    color: #FDAE3C;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    border-radius: 10px;
+    letter-spacing: 1px;
+    font-weight: 500;
+    box-shadow: 0.2rem 0.2rem 0.5rem #555;
+}
+.content-points .home-btn:hover{
+    background-color: #670a6a;
+}
+
+.mountYatra-home-image{
+    justify-content: flex-end;
+    min-width: 50%;
+    display: flex;
+}
+.mountYatra-home-image-container{
+    height: 100%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    max-width: 40rem;
+    min-width: 30rem;
+}
+.mountYatra-home-image-container img{
+    width: 100%;
+    height: auto;
+    padding-left: 2rem;
+}
+
+@media screen and (max-width:1200px){
+    .mountYatra-home{
+        flex-direction: column;
+    }
+    .mountYatra-home-image{
+        justify-content: flex-start;
+        padding: 2rem 0;
+    }
+    .mountYatra-home-image-container img{
+        padding-left: 0;
+    }
+    .mountYatra-home-content-heading h1{
+        font-size: 3.8rem;
+    }
+}
+@media screen and (max-width: 800px){
+    .mountYatra-home-content-heading h1{
+        font-size: 3rem;
+    }
+    .mountYatra-home-content-logo img{
+        max-width: 12rem;
+    }
+}
+@media screen and (max-width:550px){
+    .mountYatra-home-image-container{
+        min-width: 15rem;
+    }
+    .mountYatra-home-content-heading h1{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .mountYatra-home-content-logo img{
+        max-width: 10rem;
+    }   
+    .mountYatra-home-content-heading p{
+        font-size: 1.1rem;
+    }
+    .content-points .home-btn{
+        font-size: 1rem;
+    }
+}

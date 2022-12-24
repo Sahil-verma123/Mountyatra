@@ -1,0 +1,9 @@
+export { default as ContactUs } from './contact-us/ContactUs';
+export { default as Footer } from './footer/Footer';
+export { default as Home } from './home/Home';
+export { default as Mussoorie } from './pages/Mussoorie';
+export { default as Dehradun } from './pages/Dehradun';
+export { default as Rishikesh } from './pages/Rishikesh';
+export { default as Badrinath } from './pages/Badrinath';
+export { default as Kedarnath } from './pages/Kedarnath';
+export { default as Nainital } from './pages/Nainital';

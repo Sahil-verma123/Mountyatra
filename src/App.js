@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import { ContactUs ,Footer , Home , Mussoorie , Dehradun , Rishikesh , Badrinath , Kedarnath , Nainital } from './containers';
+import { Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <Routes>
+        <Route path="/" element={ <Home/> } />
+        <Route path="/mussoorie" element={ <Mussoorie />} />
+        <Route path="/dehradun" element={ <Dehradun />} />
+        <Route path="/rishikesh" element={ <Rishikesh />} />
+        <Route path="/badrinath" element={ <Badrinath />} />
+        <Route path="/kedarnath" element={ <Kedarnath />} />
+        <Route path="/nainital" element={ <Nainital />} />
+      </Routes>
+      <ContactUs />
+      <Footer />
     </div>
   );
 }

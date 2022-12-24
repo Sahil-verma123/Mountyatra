@@ -1,0 +1,64 @@
+.services{
+    min-height: 100vh;
+    background-color: #FDAE3C;
+}
+.services h2{
+    font-size: 3.2rem;
+    color: #fff;
+    line-height: 4rem;
+}
+.services-container{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.service{
+    height: auto;
+    width: 22rem;
+    padding: 1rem;
+    margin: 1.5rem;
+    text-align: center;
+}
+.service h4{
+    font-size: 2rem;
+    color: #4b064d;
+    padding-bottom: 1rem;
+}
+.service i{
+    color: #4b064d;
+    font-size: 2rem;
+}
+.service p{
+    font-size: 1.2rem;
+}
+@media screen and (max-width: 1000px){
+    .service{
+        width: 20rem;
+        margin: 1rem;
+    }
+}
+@media screen and (max-width: 835px){
+    .service{
+        padding: 1rem;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 550px){
+    .service{
+        padding: 0;
+    }
+    .services h2{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .service h4{
+        font-size: 1.7rem;
+    }
+    .service i{
+        font-size: 1.7rem;
+    }
+    .service p{
+        font-size: 1rem;
+    }
+}

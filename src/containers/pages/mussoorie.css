@@ -1,0 +1,100 @@
+.background-image{
+    height: 100vh;
+    width: 100%;
+    background: url('../../../public/Images/mussoorie-images/mussoorie-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-image-rishikesh{
+    height: 100vh;
+    width: 100%;
+    background: url('../../../public/Images/rishikesh-images/rishikesh-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-image-badrinath{
+    height: 100vh;
+    width: 100%;
+    background: url('../../../public/Images/badrinath-images/badrinath-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-image-kedarnath{
+    height: 100vh;
+    width: 100%;
+    background: url('../../../public/Images/kedarnath-images/kedarnath-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-image-nainital{
+    height: 100vh;
+    width: 100%;
+    background: url('../../../public/Images/nainital-images/nainital-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-image-dehradun{
+    height: 100vh;
+    width: 100%;
+    background: url('../../../public/Images/dehradun-images/dehradun-banner.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.background-image-heading{
+    width: 100%;
+    font-size: clamp(2rem , 1rem + 10vw , 6rem);
+    letter-spacing: 0.3rem;
+    padding: 2rem 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+.content-box{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.image-box{
+    max-width: 20rem;
+    min-width: 18rem;
+    flex: 1;
+}
+.image-box img{
+    width: 100%;
+}
+.content{
+    flex: 2;
+    padding: 0 2rem;
+}
+.page-accordion{
+    margin-top: 2rem;
+}
+@media screen and (max-width: 850px){
+    .content-box{
+        flex-direction: column;
+    }
+    .content{
+        padding: 2rem 0 .5rem 0;
+    }
+    .content-box-2{
+        flex-direction: column-reverse !important;
+    }
+}

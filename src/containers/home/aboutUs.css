@@ -1,0 +1,52 @@
+.aboutUs{
+    min-height: 100vh;
+    background-color: #800020;
+}
+.aboutUsContainer .main-heading{
+    font-size: 3.2rem;
+    color: #fff;
+    line-height: 4rem;
+}
+.aboutUs-para-1{
+    font-size: 1.3rem;
+    color: #fdae3c;
+    padding-top: 2rem;
+}
+.aboutUs-para-2{
+    font-size: 1.3rem;
+    color: #fdae3c;
+    padding-bottom: 2rem;
+}
+.accordion-button{
+    background-color: #fdae3c !important;
+    color: #800020 !important;
+    transition: box-shadow 0.2s;
+}
+.accordion-button:hover{
+    box-shadow: 0.2rem 0.2rem 0.5rem black !important;
+}
+.accordion-body{
+    background-color: #ffffff !important;
+    color: #800020 !important;
+}
+@media screen and (max-width: 850px){
+    .aboutUs-para-1{
+        font-size: 1.2rem;
+    }
+    .aboutUs-para-2{
+        font-size: 1.2rem;  
+    }
+}
+@media screen and (max-width: 550px){
+    .aboutUsContainer .main-heading{
+        font-size: 2.5rem;
+        line-height: 3rem;
+    }
+    .aboutUs-para-1{
+        font-size: 1rem;
+        padding-top: 2rem;
+    }
+    .aboutUs-para-2{
+        font-size: 1rem;
+    }
+}
