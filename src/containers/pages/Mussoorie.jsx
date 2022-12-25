@@ -111,7 +111,7 @@ const Mussoorie = () => {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                <h3>Mussoorie Trip Budget.</h3>
+                <h3>Mussoorie Trip From Delhi ?</h3>
               </button>
             </h2>
             <div
@@ -121,26 +121,8 @@ const Mussoorie = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                <strong>Mussoorie Trip Budget FOR CAR & HOTEL EXPENSES </strong>{" "}
-                <i className="fa-sharp fa-solid fa-arrow-down"></i> <br />
-                <br />
-                Package for <strong>1 Nights / 2 Days</strong> will cost{" "}
-                <strong>
-                  {" "}
-                  <i className="fa-solid fa-indian-rupee-sign"></i>9000
-                </strong>{" "}
-                <br />
-                Package for <strong>2 Nights / 3 Days</strong> will cost{" "}
-                <strong>
-                  {" "}
-                  <i className="fa-solid fa-indian-rupee-sign"></i>15000
-                </strong>{" "}
-                <br />
-                Package for <strong>3 Nights / 4 Days</strong> will cost{" "}
-                <strong>
-                  {" "}
-                  <i className="fa-solid fa-indian-rupee-sign"></i>21000
-                </strong>
+                <strong>Yes !!!</strong>{" "} We have a Special Offer for <strong>Delhi Clients</strong> , Our cars will pick up You directly Form Delhi , So that you will not have to worry about how to reach Haridwar.
+                Hurry Up! Don't waste your time . <strong>Mussoorie is waiting for You.</strong> 
               </div>
             </div>
           </div>

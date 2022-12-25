@@ -16,26 +16,22 @@ const Badrinath = () => {
             />
           </div>
           <div className="content">
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+            <h4>About Badrinath Dham Yatra.</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              ad consequuntur nam repellat quasi et! Laborum, quas quasi sit
-              corporis sed inventore ut mollitia non cumque adipisci, id ducimus
-              incidunt dicta voluptatem voluptatibus. Quas assumenda at, nam
-              adipisci illum fugit.
+            Badrinath is a town and nagar panchayat in Chamoli district in the state of Uttarakhand, India. A Hindu holy place, it is one of the four sites in India's Char Dham pilgrimage and is also part of India's Chota Char Dham pilgrimage circuit. It gets its name from the Badrinath Temple. This holy town is named after the Badrinath temple dedicated to the preserver, Lord Vishnu. Many Hindu devotees are smitten by the charm of this holy shrine as it showcases the traditional Garhwali wooden architecture.
             </p>
           </div>
         </div>
         <hr />
         <div className="content-box content-box-2">
           <div className="content">
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+            <h4>Badrinath Trip Plan.</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              ad consequuntur nam repellat quasi et! Laborum, quas quasi sit
-              corporis sed inventore ut mollitia non cumque adipisci, id ducimus
-              incidunt dicta voluptatem voluptatibus. Quas assumenda at, nam
-              adipisci illum fugit.
+            If you are an individual and want to travel to Badrinath alone, then it isn’t a huge task to achieve. Badrinath is situated at the roadside and the only thing you need to know is how to reach that location. Below is the day to a day travel guide to Badrinath Dham for travelers. <br />
+            <strong>Day 0: Reach to Rishikesh / Haridwar or Dehradun</strong> <br />
+            <strong>Day 1: Rishikesh to Badrinath / Joshimath. 295 km | 10 Hrs</strong> <br />
+            <strong>Day 2: Visit Badrinath Temple &amp; Nearby locations</strong> <br />
+            <strong>Day 3: Badrinath to Rishikesh / Haridwar</strong>
             </p>
           </div>
           <div className="image-box">
@@ -54,13 +50,9 @@ const Badrinath = () => {
             />
           </div>
           <div className="content">
-            <h4>Lorem ipsum dolor sit amet consectetur adipisicing elit.</h4>
+            <h4>Badrinath to Joshimath.</h4>
             <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis
-              ad consequuntur nam repellat quasi et! Laborum, quas quasi sit
-              corporis sed inventore ut mollitia non cumque adipisci, id ducimus
-              incidunt dicta voluptatem voluptatibus. Quas assumenda at, nam
-              adipisci illum fugit.
+            As thousands of devotees ascent to the revered Badrinath shrine during the peak season, even finding a bed could be a task, let alone a room to stay. It is advisable to book an accommodation at Joshimath which is 45 kms from Badrinath. You can make a day trip to Badrinath and return to Joshimath  by evening.
             </p>
           </div>
         </div>
@@ -75,7 +67,7 @@ const Badrinath = () => {
                 aria-expanded="true"
                 aria-controls="collapseOne"
               >
-                Accordion Item #1
+                <h3>Badrinath Trip Plan.</h3>
               </button>
             </h2>
             <div
@@ -85,15 +77,14 @@ const Badrinath = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                <strong>This is the first item's accordion body.</strong> It is
-                shown by default, until the collapse plugin adds the appropriate
-                classes that we use to style each element. These classes control
-                the overall appearance, as well as the showing and hiding via
-                CSS transitions. You can modify any of this with custom CSS or
-                overriding our default variables. It's also worth noting that
-                just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                To explore <strong>Badrinath</strong> and its nearby
+                surroundings at a relaxed pace, you would need{" "}
+                <strong>3-4 Days</strong> minimum as there are plenty of places in
+                and around Kedarnath. I would recommend to visit these places{" "}
+                <strong>
+                Pandukeshwar, Yogdhyan Badri Temple, Mana Village, Tapta Kund Badrinath, Bheem Pul etc.
+                </strong>{" "}
+                
               </div>
             </div>
           </div>
@@ -107,7 +98,7 @@ const Badrinath = () => {
                 aria-expanded="false"
                 aria-controls="collapseTwo"
               >
-                Accordion Item #2
+                <h3>Badrinath Trip From Delhi ?</h3>
               </button>
             </h2>
             <div
@@ -117,15 +108,8 @@ const Badrinath = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                <strong>This is the second item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                <strong>Yes !!!</strong>{" "} We have a Special Offer for <strong>Delhi Clients</strong> , Our cars will pick up You directly Form Delhi , So that you will not have to worry about how to reach Haridwar.
+                Hurry Up! Don't waste your time . <strong>Badrinath is waiting for You.</strong> 
               </div>
             </div>
           </div>
@@ -139,7 +123,7 @@ const Badrinath = () => {
                 aria-expanded="false"
                 aria-controls="collapseThree"
               >
-                Accordion Item #3
+                <h3>Kedarnath + Badrinath + Gangotri + Yamunotri Char Dham Yatra</h3>
               </button>
             </h2>
             <div
@@ -149,15 +133,7 @@ const Badrinath = () => {
               data-bs-parent="#accordionExample"
             >
               <div className="accordion-body">
-                <strong>This is the third item's accordion body.</strong> It is
-                hidden by default, until the collapse plugin adds the
-                appropriate classes that we use to style each element. These
-                classes control the overall appearance, as well as the showing
-                and hiding via CSS transitions. You can modify any of this with
-                custom CSS or overriding our default variables. It's also worth
-                noting that just about any HTML can go within the{" "}
-                <code>.accordion-body</code>, though the transition does limit
-                overflow.
+                The Combination of <strong>Kedarnath + Badrinath</strong> or <strong>Gangotri + Yamunotri</strong> or <strong>Full Char Dham Yatra</strong> costs you much lesser. The Aim of <strong>Mount Yatra</strong> is to make your journey more <strong>Cost Effective</strong> and <strong>Beautiful Experience</strong>. We Suggest you to choose a Combo Package . Although its your choice <i className="fa-sharp fa-solid fa-face-smile"></i>
               </div>
             </div>
           </div>
