@@ -97,37 +97,37 @@ const Home = () => {
       <div className="packages section__padding" id="section-1">
         <h2 className="text-center">Choose Your Destination</h2>
         <div className="packages-cards-wrapper">
-          <Link to="/mussoorie">
+          <Link to="/mussoorie-tour-package">
             <img
               src="./Images/Home-Images/mussoorie-card.png"
               alt="mussoorie-card"
             />
           </Link>
-          <Link to="./rishikesh">
+          <Link to="./rishikesh-tour-package">
             <img
               src="./Images/Home-Images/rishikesh-card.png"
               alt="rishikesh-card"
             />
           </Link>
-          <Link to="/dehradun">
+          <Link to="/dehradun-tour-package">
             <img
               src="./Images/Home-Images/dehradun-card.png"
               alt="dehradun-card"
             />
           </Link>
-          <Link to="/kedarnath">
+          <Link to="/kedarnath-tour-package">
             <img
               src="./Images/Home-Images/kedarnath-card.png"
               alt="kedarnath-card"
             />
           </Link>
-          <Link to="/badrinath">
+          <Link to="/badrinath-tour-package">
             <img
               src="./Images/Home-Images/badrinath-card.png"
               alt="badrinath-card"
             />
           </Link>
-          <Link to="/nainital">
+          <Link to="/nainital-tour-package">
             <img
               src="./Images/Home-Images/nainital-card.png"
               alt="nainital-card"
